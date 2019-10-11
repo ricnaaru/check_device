@@ -8,6 +8,8 @@ enum DeviceType {
   unspecified,
   tv,
   carPlay,
+  tablet7Inch,
+  tablet10Inch,
 }
 
 class DeviceChecker {
@@ -26,6 +28,10 @@ class DeviceChecker {
         return DeviceType.tv;
       case "carPlay":
         return DeviceType.carPlay;
+      case "7-inch-tablet":
+        return DeviceType.tablet7Inch;
+      case "10-inch-tablet":
+        return DeviceType.tablet10Inch;
     }
 
     return null;

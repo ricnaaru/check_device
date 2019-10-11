@@ -1,6 +1,6 @@
 name: device_checker
 description: Check if device is tablet or phone plugin
-version: 0.0.1
+version: 0.0.2
 author: Richardo <richardothayeb@gmail.com>
 homepage: https://github.com/ricnaaru/device_checker
 
